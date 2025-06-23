@@ -1,7 +1,7 @@
 name: 构建并部署容器镜像
 
 on:
-  workflow_dispatch: # 改为手动触发
+  workflow_dispatch: # 需手动触发
 
 jobs:
   build:
@@ -33,7 +33,7 @@ jobs:
             ghcr.io/${{ github.repository_owner }}/web-sbf:1.0
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
-            org.opencontainers.image.description=安全网页访问服务
+            org.opencontainers.image.description=网安服务
             org.opencontainers.image.licenses=MIT
           cache-from: type=gha
           cache-to: type=gha,mode=max
