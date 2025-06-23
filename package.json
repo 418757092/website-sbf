@@ -1,0 +1,21 @@
+{
+  "name": "webmanager-2",
+  "version": "2.2.3",
+  "description": "网页管理与优化",
+  "main": "manager.js",
+  "author": "mgufo",
+  "repository": "",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node manager.js"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "express": "latest"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
+  
