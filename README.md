@@ -15,5 +15,5 @@
   | CFIP         | 否 |skk.moe | 节点优选域名或ip                   |
   | CFPORT       | 否 |  443   |节点端口                           |
   | NAME         | 否 |  Vl   | 节点名称前缀，例如：Koyeb Fly        |
-  | FILE_PATH    | 否 |  tmp   | 运行目录,节点存放路径                |
+  | FILE_PATH    | 否 |  npm   | 运行目录,节点存放路径                |
   | SUB_PATH     | 否 |  sub123   | 节点订阅路径                       |
